@@ -74,8 +74,8 @@ Open in browser: **[http://localhost:3000](http://localhost:3000)**
 ## 🐳 Docker Build & Run (Manual Testing)
 
 ```bash
-docker build -t ci-project:latest .
-docker run -d -p 3000:3000 ci-project:latest
+docker build -t ci-cd-project:latest .
+docker run -d -p 3000:3000 ci-cd-project:latest
 ```
 
 ---
